@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><?= htmlspecialchars($title ? $title : 'Campus HelpDesk') ?></title>
-<link href="/projetTicketAWC-main/public/assets/css/style.css" rel="stylesheet">
-<link href="/projetTicketAWC-main/public/assets/css/navbar.css" rel="stylesheet">
-<link href="/projetTicketAWC-main/public/assets/css/auth.css" rel="stylesheet">
-<link href="/projetTicketAWC-main/public/assets/css/dashboard.css" rel="stylesheet">
-<link href="/projetTicketAWC-main/public/assets/css/tickets.css" rel="stylesheet">
-<link href="/projetTicketAWC-main/public/assets/css/utilities.css" rel="stylesheet">
+<link href="<?= BASE_URL ?>/public/assets/css/style.css" rel="stylesheet">
+<link href="<?= BASE_URL ?>/public/assets/css/navbar.css" rel="stylesheet">
+<link href="<?= BASE_URL ?>/public/assets/css/auth.css" rel="stylesheet">
+<link href="<?= BASE_URL ?>/public/assets/css/dashboard.css" rel="stylesheet">
+<link href="<?= BASE_URL ?>/public/assets/css/tickets.css" rel="stylesheet">
+<link href="<?= BASE_URL ?>/public/assets/css/utilities.css" rel="stylesheet">
 </head>
 <body class="app-body">
 
