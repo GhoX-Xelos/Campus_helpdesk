@@ -1,0 +1,223 @@
+/* ========== UTILITY CLASSES ========== */
+
+/* Display */
+.d-none { display: none; }
+.d-inline { display: inline; }
+.d-inline-block { display: inline-block; }
+.d-block { display: block; }
+.d-grid { display: grid; }
+
+/* Visibility */
+.visible { visibility: visible; }
+.invisible { visibility: hidden; }
+
+/* Overflow */
+.overflow-auto { overflow: auto; }
+.overflow-hidden { overflow: hidden; }
+.overflow-visible { overflow: visible; }
+.overflow-scroll { overflow: scroll; }
+
+/* Object Fit */
+.object-cover { object-fit: cover; }
+.object-contain { object-fit: contain; }
+
+/* Cursor */
+.cursor-pointer { cursor: pointer; }
+.cursor-default { cursor: default; }
+.cursor-not-allowed { cursor: not-allowed; }
+
+/* Text Alignment */
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Text Decoration */
+.text-decoration-none { text-decoration: none; }
+.text-decoration-underline { text-decoration: underline; }
+
+/* Text Transform */
+.text-uppercase { text-transform: uppercase; }
+.text-lowercase { text-transform: lowercase; }
+.text-capitalize { text-transform: capitalize; }
+
+/* Font Weight */
+.fw-light { font-weight: 300; }
+.fw-normal { font-weight: 400; }
+.fw-bold { font-weight: 700; }
+.fw-bolder { font-weight: 900; }
+
+/* Font Style */
+.fst-italic { font-style: italic; }
+.fst-normal { font-style: normal; }
+
+/* Border Radius */
+.rounded { border-radius: 0.5rem; }
+.rounded-sm { border-radius: 0.25rem; }
+.rounded-lg { border-radius: 1rem; }
+.rounded-full { border-radius: 9999px; }
+.rounded-top { border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; }
+.rounded-bottom { border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem; }
+.rounded-left { border-top-left-radius: 0.5rem; border-bottom-left-radius: 0.5rem; }
+.rounded-right { border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; }
+
+/* Border */
+.border { border: 1px solid #d1d5db; }
+.border-top { border-top: 1px solid #d1d5db; }
+.border-bottom { border-bottom: 1px solid #d1d5db; }
+.border-left { border-left: 1px solid #d1d5db; }
+.border-right { border-right: 1px solid #d1d5db; }
+.border-0 { border: 0; }
+
+/* Box Shadow */
+.shadow-none { box-shadow: none; }
+.shadow-sm { box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); }
+.shadow { box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
+.shadow-lg { box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175); }
+
+/* Opacity */
+.opacity-0 { opacity: 0; }
+.opacity-25 { opacity: 0.25; }
+.opacity-50 { opacity: 0.5; }
+.opacity-75 { opacity: 0.75; }
+.opacity-100 { opacity: 1; }
+
+/* Position */
+.position-static { position: static; }
+.position-relative { position: relative; }
+.position-absolute { position: absolute; }
+.position-fixed { position: fixed; }
+.position-sticky { position: sticky; }
+
+/* Top/Bottom/Left/Right */
+.top-0 { top: 0; }
+.top-50 { top: 50%; }
+.bottom-0 { bottom: 0; }
+.left-0 { left: 0; }
+.right-0 { right: 0; }
+
+/* Z-Index */
+.z-index-0 { z-index: 0; }
+.z-index-1 { z-index: 1; }
+.z-index-1000 { z-index: 1000; }
+.z-index-9999 { z-index: 9999; }
+
+/* Flexbox */
+.flex-row { flex-direction: row; }
+.flex-column { flex-direction: column; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-nowrap { flex-wrap: nowrap; }
+.flex-fill { flex: 1 1 auto; }
+.flex-grow-0 { flex-grow: 0; }
+.flex-grow-1 { flex-grow: 1; }
+.flex-shrink-0 { flex-shrink: 0; }
+.flex-shrink-1 { flex-shrink: 1; }
+
+/* Gap */
+.gap-1 { gap: 0.25rem; }
+.gap-2 { gap: 0.5rem; }
+.gap-3 { gap: 1rem; }
+.gap-4 { gap: 1.5rem; }
+.gap-5 { gap: 3rem; }
+
+/* Justify Content */
+.justify-content-start { justify-content: flex-start; }
+.justify-content-end { justify-content: flex-end; }
+.justify-content-center { justify-content: center; }
+.justify-content-between { justify-content: space-between; }
+.justify-content-around { justify-content: space-around; }
+.justify-content-evenly { justify-content: space-evenly; }
+
+/* Align Items */
+.align-items-start { align-items: flex-start; }
+.align-items-end { align-items: flex-end; }
+.align-items-center { align-items: center; }
+.align-items-baseline { align-items: baseline; }
+.align-items-stretch { align-items: stretch; }
+
+/* Transform */
+.translate-x-0 { transform: translateX(0); }
+.translate-x-1 { transform: translateX(0.25rem); }
+.translate-x-2 { transform: translateX(0.5rem); }
+.translate-y-0 { transform: translateY(0); }
+.translate-y-1 { transform: translateY(0.25rem); }
+.translate-y-2 { transform: translateY(0.5rem); }
+
+/* Scale */
+.scale-75 { transform: scale(0.75); }
+.scale-100 { transform: scale(1); }
+.scale-110 { transform: scale(1.1); }
+.scale-125 { transform: scale(1.25); }
+
+/* Transition */
+.transition-none { transition: none; }
+.transition-all { transition: all 0.3s ease; }
+.transition-colors { transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; }
+.transition-transform { transition: transform 0.3s ease; }
+
+/* Truncate */
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Width and Height */
+.w-auto { width: auto; }
+.w-100 { width: 100%; }
+.h-auto { height: auto; }
+.h-100 { height: 100%; }
+.min-w-0 { min-width: 0; }
+.max-w-full { max-width: 100%; }
+
+/* Aspect Ratio */
+.aspect-square { aspect-ratio: 1 / 1; }
+.aspect-video { aspect-ratio: 16 / 9; }
+
+/* Responsive Text */
+@media (max-width: 576px) {
+  body {
+    font-size: 0.95rem;
+  }
+  
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.25rem; }
+  h3 { font-size: 1.1rem; }
+  h4 { font-size: 1rem; }
+}
+
+/* Print Styles */
+@media print {
+  .no-print { display: none !important; }
+  .print-only { display: block !important; }
+  
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  a { color: #000; text-decoration: underline; }
+  
+  .btn { border: 1px solid #000; }
+}
