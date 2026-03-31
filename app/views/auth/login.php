@@ -2,7 +2,7 @@
   <div class="auth-panel">
     <header class="auth-head">
       <h1 class="auth-title">Connexion</h1>
-      <p class="auth-subtitle">Accedez a votre espace Campus HelpDesk.</p>
+      <p class="auth-subtitle">Accedez à votre espace Campus HelpDesk.</p>
     </header>
 
     <?php if (!empty($error)): ?>
