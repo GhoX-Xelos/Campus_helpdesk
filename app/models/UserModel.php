@@ -11,6 +11,7 @@ final class UserModel {
     $u = $stmt->fetch();
     return $u ?: null;
   }
+  
   public function createStudent($nom, $email, $hash){
 
   $sql = "INSERT INTO utilisateurs (nom, email, mdp_hash, role, actif)

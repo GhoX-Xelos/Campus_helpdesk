@@ -10,7 +10,7 @@ final class AuthController {
   public function login(){
     Auth::start();
     $error = null;
-     $user = null; 
+    $user = null; 
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
